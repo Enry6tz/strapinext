@@ -1,7 +1,7 @@
 
 import { getHomeInfo } from '@/lib/get-home-info'
 import { BlocksRenderer } from '@strapi/blocks-react-renderer'
-import Image from 'next/image'
+
 
 
 export const Hero = async () => {
