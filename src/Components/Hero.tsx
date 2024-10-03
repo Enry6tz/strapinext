@@ -13,7 +13,7 @@ export const Hero = async () => {
       <div className='[&>p>strong]:font-bold'>
       <BlocksRenderer content={description}></BlocksRenderer>
       </div>
-      <img src={image} alt='' height={400} width={400}></img>
+      <p>{image}</p>
     </div>
   )
 }
